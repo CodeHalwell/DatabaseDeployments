@@ -4,8 +4,8 @@ Demonstrates CRUD operations, aggregations, indexing, and best practices
 """
 
 from pymongo import MongoClient, ASCENDING, DESCENDING
-from pymongo.errors import DuplicateKeyError, ConnectionFailure
-from datetime import datetime, timedelta
+from pymongo.errors import ConnectionFailure
+from datetime import datetime
 import os
 from dotenv import load_dotenv
 import logging

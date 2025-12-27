@@ -3,7 +3,6 @@ Complete PostgreSQL Example with Python
 Demonstrates CRUD operations, transactions, connection pooling, and best practices
 """
 
-import psycopg2
 from psycopg2 import pool, sql
 from psycopg2.extras import RealDictCursor
 from contextlib import contextmanager
